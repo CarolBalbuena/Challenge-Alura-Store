@@ -10,4 +10,16 @@ El análisis consta de 5 puntos los cuales son:
 * Productos más y menos vendidos
 * Envió promedio de tienda
 
-Para el primer punto utilizamos el siguiente código
+Para el primer punto utilizamos el siguiente código: 
+´´´ 
+facturacionTienda1 = tienda['Precio'].astype(float).sum()
+facturacionTienda2 = tienda2['Precio'].astype(float).sum()
+facturacionTienda3 = tienda3['Precio'].astype(float).sum()
+facturacionTienda4 = tienda4['Precio'].astype(float).sum()
+
+
+print(f"Facturación Tienda 1: ${facturacionTienda1:.2f}")
+print(f"Facturación Tienda 2: ${facturacionTienda2:.2f}")
+print(f"Facturación Tienda 3: ${facturacionTienda3:.2f}")
+print(f"Facturación Tienda 4: ${facturacionTienda4:.2f}")
+´´´
